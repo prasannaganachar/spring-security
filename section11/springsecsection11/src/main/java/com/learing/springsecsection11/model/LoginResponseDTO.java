@@ -1,0 +1,4 @@
+package com.learing.springsecsection11.model;
+
+public record LoginResponseDTO(String status, String jwtToken) {
+}
